@@ -1,0 +1,12 @@
+# never commit credentials
+.env
+.env.*
+
+# generated during a call
+call.wav
+*.wav
+call_recording.wav
+
+.ipynb_checkpoints/
+__pycache__/
+!.env.example
